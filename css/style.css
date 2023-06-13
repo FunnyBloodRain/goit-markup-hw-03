@@ -70,8 +70,6 @@ padding: 0 15px 0 15px;
 /* =========HEADER======= */
 
 .header {
-    /* padding: 24px 0 24px; */
-    /* width: 1158px; */
     border-bottom: 1px solid #e7e9fc;
     line-height: 1.17; 
     text-transform: uppercase;
@@ -89,7 +87,7 @@ padding: 0 15px 0 15px;
     letter-spacing: 0.03em;
     color: var(--blue--color);
     text-transform: uppercase;
-    
+    padding: 24px 0 24px;
 }
 
 
@@ -103,7 +101,7 @@ padding: 0 15px 0 15px;
 
 
 .header-menu {
-  /* padding: 24px 0 24px; */
+  padding: 24px 0 24px;
   display: flex;
   gap: 40px;
 }
@@ -155,9 +153,9 @@ padding: 0 15px 0 15px;
     padding: 24px 0 24px;
 }
 
- .another-header {
+ /* .another-header {
     padding: 24px 0 24px;
- }
+ } */
 
 .header-ad-link:hover, .header-ad-link:focus {
     color: var(--back--color);
