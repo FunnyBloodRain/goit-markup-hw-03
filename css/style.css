@@ -184,6 +184,7 @@ padding: 0 15px 0 15px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-top: 48px;
 }
 
 .f-btn {
@@ -228,13 +229,13 @@ padding: 0 15px 0 15px;
 /*   */
 
 .section-text {
-    padding: 188px 0;
+    padding: 120px 0 120px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main--color);
-    
+    width:calc((100%-72)/4);
 }
 
 .visually-hidden {
@@ -255,7 +256,7 @@ padding: 0 15px 0 15px;
 .text-section {
     display: flex;
     gap: 24px;
-    width:calc((100%-72)/4);
+    /* width:calc((100%-72)/4); */
     padding-top: 120px;
     padding-bottom: 120px;
  
@@ -289,12 +290,14 @@ padding: 0 15px 0 15px;
 
 .section-what {
     margin-bottom: 72px;
+    padding-bottom: 120px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main--color);
+    width: calc((100% - 2 * 24px) / 3);
 
 }
 
@@ -307,7 +310,7 @@ padding: 0 15px 0 15px;
 }
 
 .section-our-back {
-    
+    padding: 120px 0 120px
     background-color: var(--white--color);
 }
 
@@ -343,6 +346,7 @@ padding: 0 15px 0 15px;
 }
 
 .hero {
+    display: flex;
     font-family: "Roboto";
     font-weight: 500;
     font-size: 20px;
@@ -350,8 +354,7 @@ padding: 0 15px 0 15px;
     letter-spacing: 0.02em;
     color: var(--text--color);
     background-color: var(--main--color);
-    
-    
+    padding: 188px 0 188px; 
 }
 
 .hero-name {
@@ -362,7 +365,7 @@ padding: 0 15px 0 15px;
     letter-spacing: 0.02em;
     color: var(--light--color);
     max-width: 496px;
-    padding: 188px 0 188px;
+    /* padding: 188px 0 188px; */
 }
 
 .section-images {
