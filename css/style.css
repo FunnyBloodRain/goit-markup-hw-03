@@ -5,6 +5,7 @@
     --back--color:#404BBF;
     --light--color:#ffffff;
     --blue--color:#4D5AE5;
+    --btn--color:#e7e9fc;
 }
 
 img {
@@ -93,6 +94,7 @@ padding: 0 15px 0 15px;
 
 
 .header-nav {
+    padding: 24px 0 24px;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -213,6 +215,7 @@ gap: 40px;
 .f-btn:hover, .f-btn:focus {
     color: var(--light--color);
     background-color: var(--back--color);
+    border: 1px solid transparent;
 }
 
 .btn {
@@ -238,8 +241,8 @@ gap: 40px;
 }
 
 
-.section-text {
-  
+.section-text-container {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .visually-hidden {
@@ -254,7 +257,6 @@ gap: 40px;
 
 .section-text-container:last-child {
     margin-left: 0;
-    width calc((100% - 3 * 24px) / 4);
 }
 
 .section-p {
@@ -295,7 +297,7 @@ gap: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main--color);
-    width: calc((100%-2*24px)/3)
+
     justify-content: center;
     }
 
@@ -304,7 +306,7 @@ gap: 40px;
     padding-bottom: 120px;
     margin-right: 0;
     gap: 24px;
-    width: calc((100%-2*24px)/3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .section-our-back {
@@ -372,15 +374,43 @@ gap: 40px;
 }
 
 .section-images {
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 24px;
+    row-gap: 48px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main--color)
+    
+}
+
+.li-image {
+    width: calc((100% - 48px) / 3);
 }
 
 
+.container-image {
+    padding: 32px 16px;
+    border: 1px solid var(--btn--color); 
+    border-top: none;
+    margin-bottom: 8px;
+}
+.portfolio-section {
+    padding-top: 96px; padding-bottom: 120px;
+}
 
+
+.port-btn {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    padding: 12px 24px;
+    border: 1px solid var(--btn--color)
+    border-radius: 4px;
+}
 /* ===========FOOTER========= */
 
 
