@@ -131,7 +131,7 @@ padding: 0 15px 0 15px;
 }
 
 .header-ad-link {
-    padding: 24px 0 24px;
+    /* padding: 24px 0 24px; */
     display: flex;
     font-family: "Roboto";
     font-weight: 100;
@@ -151,9 +151,9 @@ padding: 0 15px 0 15px;
     color: var(--main--color);
 }
 
-/* .header-ad-item {
+.header-ad-item {
     padding: 24px 0 24px;
-} */
+}
 
  .another-header {
     padding: 24px 0 24px;
