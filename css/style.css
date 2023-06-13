@@ -7,7 +7,9 @@
     --blue--color:#4D5AE5;
 }
 
-
+img {
+    display: block;
+}
 
 body {
     font-family: 'Roboto',
@@ -21,7 +23,13 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 ul, ol {
+    list-style-type: none;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
@@ -61,14 +69,18 @@ padding: 0 15px 0 15px;
 /* =========HEADER======= */
 
 .header {
+    padding: 24px 0 24px;
+    /* width: 1158px; */
     border-bottom: 1px solid #e7e9fc;
     line-height: 1.17; 
     text-transform: uppercase;
     color: var(--main--color);
 }
 .header-logo {
-    display: block;
+    margin-right: 76px;
+    display: flex;
     align-items: center;
+    line-height: 1.17;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -76,25 +88,21 @@ padding: 0 15px 0 15px;
     letter-spacing: 0.03em;
     color: var(--blue--color);
     text-transform: uppercase;
-    margin-right: 76px;
+    
 }
 
 
 .header-nav {
-    
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-size: 100;
-}
-
-
-.header-menu {
-    /* padding: 24px 0 24px; */
     display: flex;
     align-items: center;
     gap: 40px;
     
+}
+
+
+.header-menu {
+  display: flex;
+  gap: 40px;
 }
 
 
@@ -116,8 +124,17 @@ padding: 0 15px 0 15px;
     line-height: 1.5em; 
     letter-spacing: 0.02em;
     color: var(--main--color);
-    padding: 24px 0 24px;
     
+}
+
+.header-ad-link {
+    display: flex;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: var(--text--color);
 }
 
 .header-menu-link:hover {
@@ -130,14 +147,7 @@ padding: 0 15px 0 15px;
     color: var(--main--color);
 }
 
-.header-ad-link {
-    font-family: "Roboto";
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
-    color: var(--text--color);
-}
+
 
  
 .header-ad-link:hover, .header-ad-link:focus {
@@ -145,10 +155,8 @@ padding: 0 15px 0 15px;
 }
 
 .header-ad {
-    display: flex;
-    align-items: center;
-    margin-right: 0;
-    gap: 40px;
+display: flex;
+gap: 40px;
 }
 
 
@@ -383,6 +391,7 @@ padding: 0 15px 0 15px;
 
 
 .footer {
+    
     background-color: var(--main--color);
     padding: 100px 0;
 }
