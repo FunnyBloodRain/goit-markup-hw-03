@@ -201,6 +201,7 @@ gap: 40px;
 }
 
 .f-btn {
+    padding: 12px 24px 12px;
     border-radius: 4px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -399,6 +400,7 @@ gap: 40px;
     border: 1px solid var(--btn--color); 
     border-top: none;
     margin-bottom: 8px;
+    /* width: calc((100% - 48px) / 3); */
 }
 
 
