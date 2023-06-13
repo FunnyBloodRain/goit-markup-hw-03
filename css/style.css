@@ -90,12 +90,13 @@ padding: 0 15px 0 15px;
 
 
 .header-menu {
-    padding: 24px 0 24px;
+    /* padding: 24px 0 24px; */
     display: flex;
     align-items: center;
     gap: 40px;
     
 }
+
 
 .header-black {
     color: var(--main--color);
@@ -108,14 +109,15 @@ padding: 0 15px 0 15px;
 }
 
 .header-menu-item {
-    /* margin-left: auto; */
+    
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5em; 
     letter-spacing: 0.02em;
     color: var(--main--color);
-    padding: 24px 0;
+    padding: 24px 0 24px;
+    
 }
 
 .header-menu-link:hover {
