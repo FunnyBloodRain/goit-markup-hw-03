@@ -154,7 +154,10 @@ padding: 0 15px 0 15px;
     padding: 24px 0 24px;
 }
 
- 
+ .another-header {
+    padding: 24px 0 24px;
+ }
+
 .header-ad-link:hover, .header-ad-link:focus {
     color: var(--back--color);
 }
@@ -212,6 +215,7 @@ gap: 40px;
     letter-spacing: 0.04em;
     color: var(--blue--color);
     background-color: var(--white--color);
+    border: 1px solid var(--btn--color);
 }
 
 .f-btn:hover, .f-btn:focus {
@@ -248,9 +252,18 @@ gap: 40px;
 }
 
 .visually-hidden {
-    visibility: hidden;
-}
-
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .text-section {
     display: flex;
