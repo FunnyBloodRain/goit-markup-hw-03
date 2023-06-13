@@ -101,7 +101,7 @@ padding: 0 15px 0 15px;
 
 
 .header-menu {
-    padding: 24px 0 24px;
+  padding: 24px 0 24px;
   display: flex;
   gap: 40px;
 }
@@ -148,7 +148,9 @@ padding: 0 15px 0 15px;
     color: var(--main--color);
 }
 
-
+.header-ad-item {
+    padding: 24px 0 24px;
+}
 
  
 .header-ad-link:hover, .header-ad-link:focus {
@@ -235,35 +237,28 @@ gap: 40px;
     letter-spacing: 0.02em;
 }
 
-/*   */
 
 .section-text {
-    margin-bottom: 8px;
-    padding: 120px 0 120px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main--color);
-    width:calc((100%-72)/4);
+  
 }
 
 .visually-hidden {
-    overflow: hidden;
+    visibility: hidden;
 }
 
 
 .text-section {
     display: flex;
     gap: 24px;
-    width:calc((100%-72)/4);
 }
 
 .section-text-container:last-child {
     margin-left: 0;
+    width calc((100% - 3 * 24px) / 4);
 }
 
 .section-p {
+    text-align: center; 
     font-family: "Roboto";
     line-height: 1.5;
     font-size: 16px;
@@ -278,7 +273,7 @@ gap: 40px;
 
 
 .section-h {
-    display: flex;
+    text-align: center; 
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -300,9 +295,9 @@ gap: 40px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main--color);
-    width: calc((100% - 2 * 24px) / 3)
-
-}
+    width: calc((100%-2*24px)/3)
+    justify-content: center;
+    }
 
 .image-what {
     display: flex;
@@ -313,7 +308,7 @@ gap: 40px;
 }
 
 .section-our-back {
-    padding: 120px 0 120px
+    padding: 120px 0 120px;
     background-color: var(--white--color);
 }
 
@@ -337,6 +332,7 @@ gap: 40px;
     padding: 32px 16px 32px
 }
 .section-our-li {
+    border-radius: 0px 0px 4px 4px; 
     padding-bottom: 120px;
     gap: 24px;
     width: calc((100%-2*24px)/4);
@@ -348,6 +344,10 @@ gap: 40px;
     color: var(--main--color);
 }
 
+
+.name-our {
+    padding: 32px 16px;
+}
 .hero {
     display: flex;
     font-family: "Roboto";
