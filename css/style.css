@@ -87,8 +87,6 @@ padding: 0 15px 0 15px;
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 
@@ -109,7 +107,6 @@ padding: 0 15px 0 15px;
 }
 
 .header-menu-item {
-    /* padding: 24px 0 24px; */
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -139,6 +136,9 @@ padding: 0 15px 0 15px;
 }
 .header-menu-link {
     color: var(--main--color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 
